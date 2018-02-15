@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+int main(void) {
+	hanoi(3, 1, 2, 3);
+}
+
 void hanoi(int NumeroDeDiscos, int T_Origen, int T_Destino, int T_Alterna){
 	if(NumeroDeDiscos == 1) {
 		printf("mueva el disco de la torre "); 
